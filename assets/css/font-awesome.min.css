@@ -9,19 +9,19 @@
 
 
 @font-face {
-    font-family: 'Linearicons-Free';
-    src:url('../fonts/Linearicons-Free.eot?w118d');
-    src:url('../fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
-    url('../fonts/Linearicons-Free.woff2?w118d') format('woff2'),
-    url('../fonts/Linearicons-Free.woff?w118d') format('woff'),
-    url('../fonts/Linearicons-Free.ttf?w118d') format('truetype'),
-    url('../fonts/Linearicons-Free.svg?w118d#Linearicons-Free') format('svg');
+    font-family: 'Kanit-Light';
+    src:url('../fonts/Kanit-Light.eot?w118d');
+    src:url('../fonts/Kanit-Light.eot?#iefixw118d') format('embedded-opentype'),
+    url('../fonts/Kanit-Light.woff2?w118d') format('woff2'),
+    url('../fonts/Kanit-Light.woff?w118d') format('woff'),
+    url('../fonts/Kanit-Light.ttf?w118d') format('truetype'),
+    url('../fonts/Kanit-Light.svg?w118d#Kanit-Light') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 .lnr {
-    font-family: 'Linearicons-Free';
+    font-family: 'Kanit-Light';
     speak: none;
     font-style: normal;
     font-weight: normal;
