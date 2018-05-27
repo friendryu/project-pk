@@ -2488,3 +2488,15 @@ textarea.form-control {
 .accordion_card .card-body {
   font-size: 16px;
 }
+.wedding_msg{
+  padding: 20px;
+  text-align: center;
+  color: #99896e;
+  line-height: 1.5;
+}
+.wedding_heart{
+  color: #6f6555;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
