@@ -26,6 +26,18 @@
 /* ----------------IMPORT GOOGLE FONTS ------------------- */
 @import url('https://fonts.googleapis.com/css?family=Kanit');
 /* ----------------Text Fonts ------------------- */
+@font-face {
+  font-family: 'Kanit-Light';
+  src:url('../fonts/Kanit-Light.eot?w118d');
+  src:url('../fonts/Kanit-Light.eot?#iefixw118d') format('embedded-opentype'),
+  url('../fonts/Kanit-Light.woff2?w118d') format('woff2'),
+  url('../fonts/Kanit-Light.woff?w118d') format('woff'),
+  url('../fonts/Kanit-Light.ttf?w118d') format('truetype'),
+  url('../fonts/Kanit-Light.svg?w118d#Kanit-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-size: 20px;
   line-height: 1.6;
@@ -1581,20 +1593,20 @@ img {
 }
 
 .menu_block {
-  background-color: #18181c;
+  background-color: #000721;
   min-height: 100vh;
   padding: 0;
 }
 .menu_block .logo_box {
   text-align: center;
-  padding: 25px 10px;
+  padding: 20px;
 }
 .menu_block .side_menu_section {
   margin-top: 50px;
 }
 .menu_block .side_title {
   padding-left: 50px;
-  color: #99896e;
+  color: #a5a5a5;
   text-transform: capitalize;
   font-size: 15px;
   margin-bottom: 25px;
@@ -1646,7 +1658,7 @@ img {
   background-color: #99896e;
 }
 .menu_nav li.active a {
-  background-color: #99896e;
+  background-color: #818181;
   color: #ffffff;
 }
 .menu_nav .sub-menu {
@@ -1685,11 +1697,11 @@ img {
   color: #ffffff;
 }
 .filter_nav li a:hover {
-  background-color: #99896e;
+  background-color: #d4bc6b;
   color: #ffffff;
 }
 .filter_nav li.active a {
-  background-color: #99896e;
+  background-color: #818181;
   color: #ffffff;
 }
 
@@ -2489,13 +2501,14 @@ textarea.form-control {
   font-size: 16px;
 }
 .wedding_msg{
-  padding: 20px;
+  font-family: Kanit-Light;
+  padding: 25px;
   text-align: center;
-  color: #99896e;
-  line-height: 1.5;
+  color: #9c9ca9;
+  line-height: 1.8;
 }
 .wedding_heart{
-  color: #6f6555;
+  color: #d3bc89;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
